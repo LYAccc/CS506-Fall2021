@@ -5,6 +5,8 @@ def euclidean_dist(x, y):
     return res**(1/2)
 
 def manhattan_dist(x, y):
+    #return np.abs(x - y).sum()
+    
     raise NotImplementedError()
 
 def jaccard_dist(x, y):
